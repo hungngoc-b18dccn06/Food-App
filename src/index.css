@@ -66,3 +66,18 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+<<<<<<< Updated upstream
+=======
+.app{
+  width: 80%;
+  margin: auto;
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+>>>>>>> Stashed changes

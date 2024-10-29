@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -29,6 +30,23 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
+=======
+import Navbar from './components/Navbar/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import Card from './pages/Card/Card'
+import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
+const App = () => {
+  return (
+    <div className='app'>
+      <Navbar />
+        <Routes>
+          <Route path='/' element = {<Home />}></Route>
+          <Route path='/cart' element = {<Card />}></Route>
+          <Route path='/order' element = {<PlaceOrder />}></Route>
+        </Routes>
+    </div>
+>>>>>>> Stashed changes
   )
 }
 
