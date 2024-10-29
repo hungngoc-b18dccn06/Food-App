@@ -13,25 +13,3 @@ a{
   text-decoration: none;
   color: inherit;
 }
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-.app{
-  width: 80%;
-  margin: auto;
-}
-@keyframes fadeIn {
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-}
->>>>>>> Stashed changes
-=======
-.app{
-  width: 80%;
-  margin: auto;
-}
->>>>>>> 74fd0d7b0ad0a9c34128107e2019003bc00f5e3f
