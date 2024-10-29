@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { useState } from 'react'
+=======
+import React, { useState } from 'react'
+>>>>>>> 74fd0d7b0ad0a9c34128107e2019003bc00f5e3f
 import './Navbar.css'
 import { assets } from '../../assets/frontend_assets/assets'
 const Navbar = () => {

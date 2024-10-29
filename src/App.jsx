@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -47,6 +48,17 @@ const App = () => {
         </Routes>
     </div>
 >>>>>>> Stashed changes
+=======
+import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+const App = () => {
+  return (
+    <div className='app'>
+      <Navbar>
+        
+      </Navbar>
+    </div>
+>>>>>>> 74fd0d7b0ad0a9c34128107e2019003bc00f5e3f
   )
 }
 
