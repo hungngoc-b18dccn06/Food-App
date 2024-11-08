@@ -5,8 +5,10 @@ import Home from './pages/Home/Home'
 import Card from './pages/Card/Card'
 import './App.css'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
+import Footer from './components/Footer/Footer'
 const App = () => {
   return (
+    <>
     <div className='app'>
       <Navbar />
         <Routes>
@@ -15,6 +17,7 @@ const App = () => {
           <Route path='/order' element = {<PlaceOrder />}></Route>
         </Routes>
     </div>
+    <Footer /></>
 )}
 
 export default App
